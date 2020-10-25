@@ -1,0 +1,39 @@
+{
+	"folders": [
+		{
+			"name": "go-guestbook-1",
+			"path": "../../cloudcode-projects/go-guestbook-1"
+		},
+		{
+			"name": "go-api-json",
+			"path": "go-api-json"
+		},
+		{
+			"name": "data-render",
+			"path": "data-render"
+		},
+		{
+			"name": "terraform",
+			"path": "../../app/terraform"
+		},
+		{
+			"name": "mas-authoring-ui",
+			"path": "../../app/ibm/mas-authoring-ui"
+		},
+		{
+			"name": "MDX-GlobalRepo",
+			"path": "../../app/ibm/MDX-GlobalRepo"
+		},
+		{
+			"name": "terraform-chip-vault",
+			"path": "../../app/demo/terraform-chip-vault"
+		},
+		{
+			"path": "net-http"
+		},
+		{
+			"path": "../../app/k8s-local"
+		}
+	],
+	"settings": {}
+}

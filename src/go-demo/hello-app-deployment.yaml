@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    run: hello-app
+  name: hello-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      run: hello-app
+  template:
+    metadata:
+      labels:
+        run: hello-app
+    spec:
+      containers:
+      - image: 1jan13nam/golang-test:1.2.5
+        name: hello-app
+        ports:
+        - containerPort: 8080 
